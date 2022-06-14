@@ -69,7 +69,7 @@ class myFrame(wx.Frame):
             
                 date = x.strftime("%A %B %d, %Y : %H:%M")  # Format date and time
             
-                self.lb1.SetLabel(date)   # Set formated date and time in label 1
+                self.lb1.SetLabel(date)   # Set formatted date and time in label 1
             
                 self.lb2.SetLabel("Net Gain/Loss: $" + str(r_calc)) # Set Gains/losses in Label 2
 
